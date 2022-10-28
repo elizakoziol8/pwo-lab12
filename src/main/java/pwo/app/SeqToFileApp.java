@@ -1,9 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package pwo.app;
 
+package pwo.app;
 
 import pwo.seq.SeqType;
 import pwo.utils.SequenceTools;
@@ -15,7 +11,7 @@ class SeqToFileApp {
     protected SeqType seqType = null;
     protected Integer from = null, to = null;
     protected String fileName = null;
-
+    
     protected boolean getArgs(String[] args) {
         try {
             seqType = SeqType.fromString(args[0]);
